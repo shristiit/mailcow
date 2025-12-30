@@ -147,6 +147,21 @@ fi
 # Rename custom logo, if any
 [[ -f /etc/sogo/sogo-full.svg ]] && mv /etc/sogo/sogo-full.svg /etc/sogo/custom-fulllogo.svg
 
+# Copy custom branding assets into the web resources if they were provided on the host
+copy_if_present() {
+  local src="$1"
+  local dest="$2"
+
+  if [[ -f "${src}" ]]; then
+    cp "${src}" "${dest}"
+  fi
+}
+
+copy_if_present /etc/sogo/custom-fulllogo.svg /usr/lib/GNUstep/SOGo/WebServerResources/img/sogo-full.svg
+copy_if_present /etc/sogo/custom-fulllogo.png /usr/lib/GNUstep/SOGo/WebServerResources/img/sogo-logo.png
+copy_if_present /etc/sogo/custom-shortlogo.svg /usr/lib/GNUstep/SOGo/WebServerResources/img/sogo-compact.svg
+copy_if_present /etc/sogo/custom-theme.js /usr/lib/GNUstep/SOGo/WebServerResources/js/theme.js
+
 # Rsync web content
 echo "Syncing web content with named volume"
 rsync -a /usr/lib/GNUstep/SOGo/. /sogo_web/

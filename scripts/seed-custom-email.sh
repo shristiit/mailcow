@@ -63,7 +63,7 @@ ACCO-100|Accolite Labs|TASK|DONE|Medium|Raise invoice for month of from November
 ACCO-101|Accolite Labs|TASK|DONE|Medium|Raise invoice for month of March for Sireesh|Prepare and raise the March invoice for Sireesh under Accolite Labs.|Raghu Bezawada|raghu.bezawada@shristitech.com|Raghu Bezawada|raghu.bezawada@shristitech.com|2025-03-14T23:00:00Z
 ACCO-102|Accolite Labs|TASK|DONE|Medium|Raise invoice for month of April for Sireesh|Prepare and raise the April invoice for Sireesh under Accolite Labs.|Raghu Bezawada|raghu.bezawada@shristitech.com|Raghu Bezawada|raghu.bezawada@shristitech.com|2025-04-18T23:00:00Z
 INSTA-100|Insta CRM|TASK|DONE|Medium|Raise invoice for InstaCRM from Aug to Oct 2025|Raise the InstaCRM invoice covering August 2025 through October 2025.|Raghu Bezawada|raghu.bezawada@shristitech.com|Raghu Bezawada|raghu.bezawada@shristitech.com|2025-10-21T00:00:00Z
-INSTA-101|Insta CRM|TASK|TODO|Medium|Raise invoice for InstaCRM from Nov 25 to Jan 26|Prepare the InstaCRM invoice for November 2025 through January 2026.|Raghu Bezawada|raghu.bezawada@shristitech.com|Raghu Bezawada|raghu.bezawada@shristitech.com|2026-01-09T00:00:00Z
+INSTA-101|Insta CRM|TASK|TODO|Medium|Raise invoice for InstaCRM from Nov 25 to Jan 26|Prepare the InstaCRM invoice for November 2025 through January 2026.|Raghu Bezawada|raghu.bezawada@shristitech.com|Raghu Bezawada|raghu.bezawada@shristitech.com|2025-12-23T00:00:00Z
 
 EOF
 )
